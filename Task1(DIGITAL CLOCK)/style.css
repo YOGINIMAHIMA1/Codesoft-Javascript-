@@ -1,1 +1,94 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'ROBOTO';
+}
+.hero
+{
+    width:100%;
+    background:linear-gradient(45deg,#08001f,#30197d);
+    min-height:100vh;
+    color:#fff;
+    position:relative;
+    
+}
+.container
+{
+    width:800px;
+    height:180px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.clock
+{
+    width:100%;
+    height:100%;
+    background:rgba(235,0,255,0.17);
 
+    border-radius:32px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.container::before
+{
+  content:'';
+  width:180px;
+  height:180px;
+  background: rgba(245, 7, 245, 0.849);
+  border-radius:10px ;
+  position:absolute;
+  left:310px;
+  top:px;
+  z-index:-2;
+  
+  
+}
+.container::after
+{
+  content:' ';
+  width:180px;
+  height:180px;
+  background:#41a0ff;
+  border-radius:50%;
+  position:absolute;
+  left:310px;
+  top:-0px;
+  z-index:-2;
+  
+}
+.clock span{
+    font-size:41px;
+    display:inline-block;
+    position:relative;
+    
+   
+    
+    
+}
+.clock span::after{
+      
+      font-size:10px;
+      position:absolute;
+      bottom:-5px;
+      left:50%;
+      transform:translateX(-50%)
+}
+#hrs::after
+{
+    content:'HRS';
+}
+#min::after
+{
+    content:'MINS';
+}
+#sec::after
+{
+    content:'SECS';
+}
