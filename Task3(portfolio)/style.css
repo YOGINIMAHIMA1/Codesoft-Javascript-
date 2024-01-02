@@ -1,0 +1,276 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: 'Poppins', sans-serif;
+  
+}
+
+body{
+  background:rgb(0, 0, 33);
+  color:white;
+}
+
+
+/*
+.portfolio
+{
+   position:relative;
+   width:100%;
+   height:100vh;
+   background:#ffffff;
+}
+*/
+
+nav{
+  
+display:flex;
+justify-content: center;
+align-items:space-around;
+height:60px;
+background-color: rgb(18,18,62);
+  
+}
+nav ul{
+  display:flex;
+  justify-content: center;
+  margin:10px;
+}
+nav ul li{
+  list-style:none;
+  margin:0px 23px;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+}
+nav ul li a:hover{
+  color:rgb(154, 64, 94);
+}
+.left
+{
+  font-size:1.7rem;
+  background-image: url("Mahima Bhardwaj.jfif");
+  color:rgb(62, 52, 52);
+  
+
+}
+.firstSection
+{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:80px 0;
+}
+.firstSection >div{
+  width:30%;
+  
+}
+
+.leftSection
+{
+  
+  font-size:1.2rem;
+  border:3px solid rgb(52, 41, 41);
+  border-style:inset;
+
+  
+  
+}
+.leftSection .btn
+{
+  padding:16px;
+  
+  border:2px solid white;
+  border-radius:20px;
+  cursor:pointer;
+  background:#1e2167;
+  margin-right:69px;
+  width:133px;
+  margin-top:6px;
+  
+
+
+}
+.btn a{
+  text-decoration: none;
+  color:white;
+  letter-spacing: 2px;
+}
+.btn:hover{
+  background-color: #49f049;
+}
+.leftSection .btn2
+{
+  padding:16px;
+  border:2px solid white;
+  border-radius:20px;
+  cursor:pointer;
+  background:#1e2167;
+  width:122px;
+  height:73px;
+  margin-bottom:1px;
+  padding-bottom:32px;
+}
+.btn2 a{
+  color:white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.btn2:hover{
+ background:aqua;
+ color:#0e0e1a
+}
+.btn2 a:hover{
+  color:black;
+}
+
+
+.RightSection img
+{
+  
+  height:80%;
+  width:90%;
+  border: 2px solid  #49f049 ;
+  border-radius: 100px;
+  box-shadow: 15px -13px 13px rgba(100, 222, 123,0.7);
+  transform: translate(-50px,40px);
+  
+}
+.purple
+{
+  color:rgb(236, 236, 12);
+}
+.green
+{
+  color:#49f049;
+}
+.gray
+{
+  color:gray;
+}
+#element
+{
+  color:aqua;
+}
+#element:hover{
+  color:blueviolet;
+}
+.secondsection
+{
+  max-width:80vw;
+  margin:auto;
+  height:80vh;
+}
+.box{
+   background:white;
+   width:80vw;
+   height:2px;
+   margin:56px 0;
+   display:flex;
+}
+.sectionsection h1{
+  font-size:1.7rem;
+}
+.vertical
+{
+   height:93px;
+   width:1px;
+   background-color:white;
+   margin:0 100px ;
+}
+.top
+{
+  width:34px;
+  position:relative;
+  top:-32px;
+  left:-9px;
+  margin-bottom:0;
+}
+.text
+{
+   position:relative;
+   top:75px;
+   width:170px;
+}
+.title
+{
+  position:relative;
+  top:86px;
+  color:gray;
+  width:150px;
+  font-size:9px;
+  
+  
+}
+footer >div{
+  width:223px;
+}
+footer 
+{
+  background-color: #0e0e1a;
+  height: 80px;
+  width: 50px;
+}
+ .copyright
+{
+
+  color:rgb(174, 156, 156);
+  font-size:10px;
+  text-align: center;
+  margin-left:488px;
+  margin-top: 41px;
+}
+
+.second1{
+            display:flex;
+            justify-content:space-evenly;
+}
+.second1 a
+{
+  background-image:url("youtube.webp");
+  text-decoration: none;
+  background-size: cover;
+  color: aliceblue;
+}
+.contact
+{
+  display: flex;
+  align-items:center;
+  justify-content:center ;
+  margin-left:555px;
+}
+form{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding:4vw 7vw;
+  border-radius: 10px;
+}
+form h3{
+  color:#282323;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+form input , textarea{
+  border:0;
+  margin:10px 0;
+  padding:10px;
+  outline: none;
+  background: #f5f5f5;
+  font-size:16px;
+
+}
+form button{
+  padding:15px;
+  background:#bb2f3a;
+  color:#fff;
+  font-size: 18px;
+  border:2px solid black;
+  border-radius:40px ;
+  cursor: pointer;
+  width:140px;
+  margin:20px auto 0;
+
+}
