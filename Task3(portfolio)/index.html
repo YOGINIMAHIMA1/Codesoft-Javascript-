@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Personal Portfolio Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style45.css">
+
+</head>
+<body>
+  <header>
+  <nav>
+     <div class="left"> Mahima Bhardwaj Portfolio</div>
+     <div class="right">
+    <ul >
+     <li> <a href="file:///D:/htmlbasics/portfolio%20project/portfolio.htm">Home</a></li>
+    <li><a href="#">About</a></li>
+     <li><a href="#">Skills</a></li>
+     <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+     </ul>
+    </div>
+  </nav>
+  </header>
+  <main>
+<section class="firstSection">
+  <div class="leftSection">Hi,My Name is <Span class="purple">Mahima Bhardwaj</Span>
+    <div> and I am Front end Developer</div><span id="element"></span>
+    <div>based in India,</div> <div> skilled in crafting websites and 
+      applications</div> <span class="green">using JavaScript ,Html,Css</span><div> including related technologies.</div>
+      <div class="buttons">
+      <button class="btn"><a href="Mahima's Resume111.pdf" target="_blank">Download CV</a></button>
+      <button class="btn2"><a href="https://linktr.ee/bhardwajmahima81womenwhocode" target="_blank">LinkTree</a></button>
+
+    </div>
+    </div>
+
+  <div class="RightSection">
+    <img src="mahima11 (1).jpg" alt="developer" > 
+  </div>
+
+</section>
+<section class="secondsection">
+  <span class="gray">
+    What I have Done so Far
+  </span>
+  <h1> Work Experience</h1>
+  <div class="box">
+    <div class="vertical">
+      <img class="top" src="html5.jpg">
+      <div class="text">HTML/CSS Developer(2022-2023)</div>
+      <div class="title">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos dolor 
+       dolorum maxime repudiandae illum! Illo dignissimos 
+      
+      </div>
+    </div>
+    <div class="vertical">
+      <img class="top" src="ui.avif">
+      <div class="text">UI/UX Developer(2022-2023)</div>
+      <div class="title">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos dolor 
+       dolorum maxime repudiandae illum! Illo dignissimos 
+      
+      </div>
+    </div>
+    <div class="vertical">
+      <img class="top" src="javascript.svg">
+      <div class="text">JavaScript Developer(2022-2023)</div>
+      <div class="title">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos dolor 
+       dolorum maxime repudiandae illum! Illo dignissimos 
+      
+      </div>
+    </div>
+    <div class="vertical">
+      <img class="top" src="youtube.webp">
+      <div class="text">Youtuber(2023)</div>
+      <div class="title">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos dolor 
+       dolorum maxime repudiandae illum! Illo dignissimos 
+      
+      </div>
+    </div>
+    <div class="vertical">
+      <img class="top" src="developerimage.webp">
+      <div class="text">FrontEnd Web Developer(2022-2023)</div>
+      <div class="title">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos dolor 
+       dolorum maxime repudiandae illum! Illo dignissimos 
+      
+      </div>
+    </div>
+   
+  </div>
+</section>
+</main>
+ <footer>
+  <div class="footer">
+  <div class="second1">
+   
+  <a href="https://www.github.com/YOGINIMAHIMA1/" class="Github" target="_blank">Github</a>
+  <a href="https://www.linkedin.com/in/mahima-bhardwaj-49425922b/" target="_blank">Linkedin</a>
+  <a href="https://www.youtube.com/@WOMENWHOCODE11/" target="_blank">Youtube</a>
+
+  </div>
+</div>
+<div class="contact">
+  <form onsubmit="sendEmail();reset();return false;">
+    <h3>Get In Touch</h3>
+    <input type="text"  id="username" placeholder="Username" required>
+    <input type="email" id="email"   placeholder="xyz@gmail.com" required>
+    <input type="text" id="phone"   placeholder="1234-567-890" required>
+    <textarea id="message"  rows="4" placeholder="How can i Help You?"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div>
+<div class="copyright">
+  <h5> copyrights &#169; Mahima Bhardwaj Portfolio || All Rights Reserved </h5>
+</div>
+ </footer>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail()
+  {
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "bhardwajmahima81@gmail.com.com",
+    Password : "Gracias$@#12",
+    To : 'mahimabhardwajmahimabhardwaj@gmail.com',
+    From : document.getElementbyId.com("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+
+  }
+</script>
+ 
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer', 'UI/UX Designer', 'C++ Programmer','Youtuber','Web Designer'],
+    typeSpeed: 50,
+  });
+</script>
+</body>
+</html>
